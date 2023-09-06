@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: Maesi.com ::</title>    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./main.css">    
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">            
+            <img src="./images/Maesi_com.png" alt="logo maesi.com">            
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- MENU NAVEGAÇÃO HEADER -->
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a Maesi.com
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#servicos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Serviços
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#clientes" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Clientes
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        
+        <!-- SECTION SOBRE -->
+        <section id="sobre">
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+
+                        <!-- INÍCIO CAROUSEL -->
+                        <div class="col-md-5">
+                            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="2000">
+                                        <img src="./slides/slide1.png" alt="Imagem de código html">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="./slides/slide2.png" alt="Imagem de um notebook com código css">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="./slides/slide3.png" alt="Imagem de três monitores com código de programação">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </button>
+                                <div class="carousel-indicators">
+                                    <button type="button" class="active" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+                                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FIM CAROUSEL -->
+
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title text-subtitulos">Sobre a Maesi.com</h2>
+                            <p>
+                                Sou desenvolvedor full stack com conhecimento sólido em linguagens de programação, frameworks e ferramentas para o back-end e o front-end. Sou também um profissional flexível e adaptável, capaz de trabalhar em projetos de diferentes tamanhos e complexidades. Tenho desenvolvido aplicações e softwares para uma variedade de clientes, incluindo empresas de tecnologia, e-commerce e startups.
+                            </p>
+                            <p>
+                                Apaixonado pelo desenvolvimento e sempre procurando novas tecnologias e técnicas para melhorar meus projetos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </section>
+        
+        <!-- SECTION SERVIÇOS -->
+        <section id="servicos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center text-subtitulos mb-5">
+                        Serviços
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+
+                        <!-- MENU NAVEGAÇÃO SERVIÇOS -->
+                        <nav class="nav nav-pills flex-column nav-servicos">
+                            <button data-bs-toggle="tab" data-bs-target="#front-end" type="button" class="fw-bold text-start nav-link text-colored active">
+                                <i class="bi bi bi-laptop me-1"></i>
+                                Dev FRONT-END
+                            </button>
+                            <button data-bs-toggle="tab" data-bs-target="#back-end" type="button" class="fw-bold text-start nav-link text-colored">
+                                <i class="bi bi bi-laptop-fill me-1"></i>
+                                Dev BACK-END
+                            </button>                            
+                        </nav>
+
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+
+                            <!-- FRONT-END -->
+                            <div class="tab-pane active" id="front-end">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/html.png" alt="logo html">                                       
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt nostrum iure voluptas quos, dolore ad reiciendis a, enim amet recusandae, consequuntur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/css.png" alt="logo css">                                        
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt nostrum iure voluptas quos, dolore ad reiciendis a, enim amet recusandae, consequuntur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/javascript.png" alt="logo javascript">                                        
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt nostrum iure voluptas quos, dolore ad reiciendis a, enim amet recusandae, consequuntur.
+                                        </p>
+                                    </div>                                   
+                                </div>
+                            </div>
+
+                            <!-- BACK-END -->
+                            <div class="tab-pane" id="back-end">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/djnago.png" alt="logo django">                                       
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt nostrum iure voluptas quos, dolore ad reiciendis a, enim amet recusandae, consequuntur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/gunicorn.png" alt="logo gunicorn">                                        
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt nostrum iure voluptas quos, dolore ad reiciendis a, enim amet recusandae, consequuntur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/nginx.png" alt="logo nginx">                                        
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt nostrum iure voluptas quos, dolore ad reiciendis a, enim amet recusandae, consequuntur.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/Python.png" alt="logo phyton">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum incidunt nostrum iure voluptas quos, dolore ad reiciendis a, enim amet recusandae, consequuntur.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION CLIENTES -->
+        <section id="clientes" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center text-subtitulos">Clientes</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/espn.png" alt="logo espn" class="rounded mb-2">                                                    
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda maiores accusantium cumque nisi ab vero in maxime
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/uol.png" alt="logo uol" class="rounded mb-2">
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda maiores accusantium cumque nisi ab vero in maxime
+                        </p>
+                    </div>                    
+                    <div class="col-md-4">
+                        <img src="./images/netflix.png" alt="logo netflix" class="rounded mb-2">                        
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda maiores accusantium cumque nisi ab vero in maxime
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/SBT.png" alt="logo sbt" class="rounded mb-2">                        
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda maiores accusantium cumque nisi ab vero in maxime
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/globo_com.png" alt="logo globo.com" class="rounded mb-2">                       
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda maiores accusantium cumque nisi ab vero in maxime
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION FALE CONOSCO -->
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center text-subtitulos">
+                        Fale conosco
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        
+                        <!-- FORMULÁRIO DE CONTATO -->
+                        <form>
+                            <div class="mb-3 ">
+                                <label class="form-label fw-bold text-colored" for="nome">Seu nome</label>
+                                <input class="form-control" type="text" id="nome" name="nome" required>
+                            </div>
+                            <div class="mb-3 form-contato">
+                                <label class="form-label fw-bold text-colored" for="email">Seu e-mail</label>
+                                <input class="form-control" type="email" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3 form-contato">
+                                <label class="form-label fw-bold text-colored" for="telefone">Seu telefone (opcional)</label>
+                                <input class="form-control" type="tel" id="telefone" name="telefone">
+                            </div>
+                            <div class="mb-3 form-contato">
+                                <label class="form-label fw-bold text-colored" for="mensagem">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" name="mensagem" required></textarea>
+                            </div>
+                            <button class="btn fw-bold" type="submit">Enviar</button>
+                        </form>
+                    </div>
+
+                    <!-- REDES SOCIAIS -->
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-subtitulos">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>                                    
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>                                    
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>                                    
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- COLUNA ENDEREÇO -->
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-subtitulos">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua dos Devs, 100 - Jd. Clouding - Limeira/SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>

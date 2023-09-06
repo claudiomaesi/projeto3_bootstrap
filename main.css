@@ -1,0 +1,100 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+header img {
+    height: 50px;
+}
+
+.navbar {
+    background-color: #3f3f42;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #3f3f42;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-servicos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #ecf0f1;
+}
+
+.carousel-item img {
+    height: 300px;
+}
+
+#sobre,
+#clientes {
+    background-color: #ecf0f1;
+}
+
+.text-colored {
+    color:#69696b;    
+}
+
+.text-subtitulos {
+    color:#69696b;
+}
+
+#nome-empresa {
+    color:#fff;
+    font-family: Lobster;
+}
+
+.col-md-4 img {    
+    height: 100px;    
+}
+
+.col-md-4 p {    
+    height: 100px
+}
+
+.nav-servicos .nav-link.active,
+#fale-conosco button {
+    background-color: #3f3f42;
+    color: #fff;
+}
+
+.nav-servicos .nav-link:hover {
+    color: #3f3f42;
+}
+
+#front-end img {
+    max-width: 80px;
+}
+
+#back-end img {
+    max-width: 200px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;    
+}
+
+.social-links a {
+    text-decoration: none;    
+}
+
+#nome-error,
+#email-error,
+#telefone-error,
+#mensagem-error {
+    font-size: 10px;
+    font-style: italic;
+    color: red;
+}
+
+/* CELULAR */
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
